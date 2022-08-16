@@ -4,7 +4,8 @@ import "flatpickr/dist/flatpickr.min.css";
 const textTable = document.querySelector('input#datetime-picker');
 const btn = document.querySelector('[ data-start]');
 let dateTest;
-// let dateTestSum;
+let dateTestSum;
+
 
 btn.addEventListener('click', timerStart);
 
