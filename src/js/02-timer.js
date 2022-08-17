@@ -26,7 +26,7 @@ function timerStart() {
     if (dateTestSum <= 0) {
       clearInterval(timerId);
       console.log("timerStop !)");
-      btn.removeAttribute('disabled');
+      // btn.removeAttribute('disabled');
       return;
     }
     displayTime(dateTestSum);
