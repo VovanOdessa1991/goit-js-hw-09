@@ -7,7 +7,7 @@ const becgrountRef = document.querySelector("body");
 
 btnStart.addEventListener('click', start);
 btnStop.addEventListener('click', stop);
-
+let timerId;
 
 
 
